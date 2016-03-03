@@ -12,6 +12,11 @@
 		87548EE01C8739170013F595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87548EDE1C8739170013F595 /* Main.storyboard */; };
 		87548EE21C8739170013F595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87548EE11C8739170013F595 /* Assets.xcassets */; };
 		87548EE51C8739170013F595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87548EE31C8739170013F595 /* LaunchScreen.storyboard */; };
+		87548EED1C873C860013F595 /* tic_tac_toe_intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 87548EEC1C873C860013F595 /* tic_tac_toe_intro.png */; };
+		87548EEF1C873CE50013F595 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 87548EEE1C873CE50013F595 /* board.png */; };
+		87548EF11C873CEA0013F595 /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = 87548EF01C873CEA0013F595 /* o.png */; };
+		87548EF31C873CED0013F595 /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87548EF21C873CED0013F595 /* x.png */; };
+		87548EF51C88927F0013F595 /* game_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 87548EF41C88927F0013F595 /* game_over.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		87548EE11C8739170013F595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87548EE41C8739170013F595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87548EE61C8739170013F595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87548EEC1C873C860013F595 /* tic_tac_toe_intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tic_tac_toe_intro.png; sourceTree = "<group>"; };
+		87548EEE1C873CE50013F595 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		87548EF01C873CEA0013F595 /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		87548EF21C873CED0013F595 /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		87548EF41C88927F0013F595 /* game_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_over.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,12 @@
 				87548EDA1C8739170013F595 /* AppDelegate.swift */,
 				87548EDC1C8739170013F595 /* ViewController.swift */,
 				87548EDE1C8739170013F595 /* Main.storyboard */,
+				87548EF41C88927F0013F595 /* game_over.png */,
+				87548EF01C873CEA0013F595 /* o.png */,
+				87548EF21C873CED0013F595 /* x.png */,
+				87548EEE1C873CE50013F595 /* board.png */,
 				87548EE11C8739170013F595 /* Assets.xcassets */,
+				87548EEC1C873C860013F595 /* tic_tac_toe_intro.png */,
 				87548EE31C8739170013F595 /* LaunchScreen.storyboard */,
 				87548EE61C8739170013F595 /* Info.plist */,
 			);
@@ -124,7 +139,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				87548EE51C8739170013F595 /* LaunchScreen.storyboard in Resources */,
+				87548EED1C873C860013F595 /* tic_tac_toe_intro.png in Resources */,
+				87548EF31C873CED0013F595 /* x.png in Resources */,
 				87548EE21C8739170013F595 /* Assets.xcassets in Resources */,
+				87548EF11C873CEA0013F595 /* o.png in Resources */,
+				87548EF51C88927F0013F595 /* game_over.png in Resources */,
+				87548EEF1C873CE50013F595 /* board.png in Resources */,
 				87548EE01C8739170013F595 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
